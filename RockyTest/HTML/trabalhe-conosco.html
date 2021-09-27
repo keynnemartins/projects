@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabalhe conosco, e venha fazer parte dessa grande família italiana.">
+    <meta name="robots" content="noindex">
+    <title>BuonAppetito - A Italia perto de você</title>
+    <link rel="canonical" href="./index.html"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            font-size: 45px;
+            text-align: center;
+            display: flex;
+            font-family: 'Pinyon Script', cursive;
+            margin-left: 20px;
+            margin-right: 1000px;
+            text-decoration: none;
+            color: #740e08;
+            text-shadow: 1px 1px 1px white;
+            background-color: white;
+            border-radius: 5px;
+
+        }
+
+        nav{
+            float: right;
+
+
+        }
+
+        #titulo {
+            font-family: 'Pinyon Script', cursive;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px black;
+            margin-left: 7%;
+            font-size: 45px;
+        }
+
+        #subtitulo {
+            font-family: 'Crimson Text', serif;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px black;
+            margin-left: 10%;
+        }
+
+        fieldset {
+            border: 0;
+        }
+
+        body {
+            background-image: url(../Assets/background-trabalheconosco.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Crimson Text', serif;
+            font-size: 22px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            margin-left: 36%;
+            margin-top: 50px;
+            justify-content: center;
+            text-shadow: 1.5px 1.5px 1px rgb(0, 0, 0);
+            
+        }
+
+        input,
+        select,
+        textarea,
+        button {
+            border-radius: 5px
+        }
+
+        .campo {
+            margin-bottom: 1em;
+        }
+
+        .campo label {
+            margin-bottom: 0.1em;
+            color: rgb(255, 255, 255);
+            display: block;
+            font-family: 'Crimson Text', serif;
+        }
+
+        fieldset.grupo .campo {
+            float: left;
+            margin-right: 1em;
+        }
+
+        .campo input[type="text"],
+        .campo input[type="email"],
+        .campo select,
+        .campo textarea {
+            padding: 0.2em;
+            border: 1px solid #000000;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .campo select option {
+            padding-right: 1em;
+        }
+
+        .campo input:focus,
+        .campo select:focus,
+        .campo textarea:focus {
+            background: #E0E0F8;
+        }
+
+        .botao {
+            font-size: 1.2em;
+            background: #740d08;
+            border: 0;
+            margin-bottom: 1em;
+            color: #ffffff;
+            padding: 0.2em 0.6em;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+            text-shadow: 1px 1px 1 px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            margin-top: 50px;
+            margin-bottom: 150px;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Crimson Text', serif;
+        }
+
+        .botao:hover {
+            background: #913333;
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+            text-shadow: none;
+        }
+
+        #check {
+            display: inline-block;
+        }
+        form{
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <a class="logo" href="index.html">BuonAppetito</a>
+    </nav>
+</header>
+
+<body>
+    <div id="form">
+        
+        <div class="campo">
+        <h1 id="titulo">Trabalhe Conosco</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Nome"><strong>Nome</strong></label>
+                <input type="text" name="Nome" id="Nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="Email"><strong>Email</strong></label>
+            <input type="Email" name="Email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual sua área de atuação?</strong></label>
+            <label>
+                <input type="radio" name="job" value="Administrativo">Administrativo
+            </label>
+            <label>
+                <input type="radio" name="job value=" Cozinha">Cozinha
+            </label>
+            <label>
+                <input type="radio" name="job" value="Higiene">Higiene
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="Formação"><Strong>Formação</Strong></label>
+            <select id="Formação">
+                <option selected disabled value="">Selecione...</option>
+                <option>Ensino fundamental</option>
+                <option>Ensino Médio/Técnico</option>
+                <option>Ensino Superior</option>
+            </select>
+        </div><br>
+
+        <div class="campo">
+            <br>
+            <label><strong>Experiência e/ou seu motivo pelo qual queira fazer parte da
+                    equipe:</strong></label><br>
+            <textarea row="6" style="width: 35em;" id="experiência" name="experiência"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+        <br><br>
+    </form>
+
+</body>
+
+</html>

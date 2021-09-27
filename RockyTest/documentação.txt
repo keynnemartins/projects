@@ -1,0 +1,11 @@
+Documentação:
+
+	- Foi realizado o esqueleto da página inicial com barra de navegação (acrescentar mais tópicos);
+	- Estruturado a aba "sobre nós" com redirecionamento interno;
+	- Inserido um "cardápio-seco" que mostra somente as categorias de alimentos, nos quais clicando em cada um, o cliente é redirecionado para um cardápio completo do restaurante, sendo assim, é necessário estruturar o cardápio em um outro html/css;
+	- Estruturado o Footer-menu de maneira enxuta, o mesmo deve ser otimizado;
+	- Levar o user que clicar em Delivery para uma página de whatsapp (reaver);
+	- Criar um formulário de contato e de trabalhe conosco;
+	- Inserir "menu" no header com redirecionamento interno;
+	
+	
